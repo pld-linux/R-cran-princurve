@@ -1,7 +1,7 @@
 %define		fversion	%(echo %{version} |tr r -)
 %define		modulename	princurve
 Summary:	Fits a Principal Curve in Arbitrary Dimension
-Summary(pl):	Wype³nia krzywe w ró¿nych wymiarach
+Summary(pl):	Dopasowywanie krzywej g³ównej w dowolnym wymiarze
 Name:		R-cran-%{modulename}
 Version:	1.1r7
 Release:	1
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Fits a principal curve to a data matrix in arbitrary dimensions.
 
 %description -l pl
-Wype³nia krzywe do tablicy danych w ró¿nych wymiarach.
+Dopasowywanie krzywej g³ównej w dowolnym wymiarze.
 
 %prep
 %setup -q -c
