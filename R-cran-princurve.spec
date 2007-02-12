@@ -1,7 +1,7 @@
 %define		fversion	%(echo %{version} |tr r -)
 %define		modulename	princurve
 Summary:	Fits a Principal Curve in Arbitrary Dimension
-Summary(pl.UTF-8):   Dopasowywanie krzywej głównej w dowolnym wymiarze
+Summary(pl.UTF-8):	Dopasowywanie krzywej głównej w dowolnym wymiarze
 Name:		R-cran-%{modulename}
 Version:	1.1r7
 Release:	2
