@@ -3,12 +3,12 @@
 Summary:	Fits a Principal Curve in Arbitrary Dimension
 Summary(pl.UTF-8):	Dopasowywanie krzywej głównej w dowolnym wymiarze
 Name:		R-cran-%{modulename}
-Version:	1.1r7
-Release:	2
+Version:	1.1r12
+Release:	1
 License:	GPL v2+
 Group:		Applications/Math
 Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
-# Source0-md5:	705919e7815e9fc00945030035ab96a5
+# Source0-md5:	9d2593c9b56f06a0a7b4bc165e9977b4
 BuildRequires:	R >= 2.8.1
 BuildRequires:	gcc-fortran
 Requires(post,postun):	R >= 2.8.1
