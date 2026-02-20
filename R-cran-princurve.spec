@@ -4,7 +4,7 @@ Summary:	Fits a Principal Curve in Arbitrary Dimension
 Summary(pl.UTF-8):	Dopasowywanie krzywej głównej w dowolnym wymiarze
 Name:		R-cran-%{modulename}
 Version:	1.1r12
-Release:	2
+Release:	3
 License:	GPL v2+
 Group:		Applications/Math
 Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
